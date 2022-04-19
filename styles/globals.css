@@ -6,6 +6,14 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@media screen and (max-width: 712px) {
+  html,
+  body {
+    overflow-x: hidden;
+    padding: 10px;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +21,34 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: MavenPro;
+  src: url(/fonts/MavenPro-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url(/fonts/Poppins-Bold.ttf);
+}
+
+textarea {
+  border: none;
+  background-color: transparent;
+}
+
+input {
+  border: none;
+  background-color: transparent;
 }
